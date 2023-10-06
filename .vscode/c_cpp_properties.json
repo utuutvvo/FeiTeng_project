@@ -1,0 +1,18 @@
+{
+    "configurations": [
+        {
+            "name": "Win64", // 指示平台，如 Mac/Linux/Windows，实测乱填也行
+            "includePath": [
+                "${workspaceFolder}/**",
+                "E:/opencv/Opencv/opencv-4.5.4/opencv/build/x64/mingw/install/include",
+                "E:/opencv/Opencv/opencv-4.5.4/opencv/build/x64/mingw/install/include/opencv2"
+            ],
+            "defines": [],
+            "compilerPath": "E:/opencv/MinGw/mingw64/bin/g++.exe",
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "gcc-x64"
+        }
+    ],
+    "version": 4
+}

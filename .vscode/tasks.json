@@ -1,0 +1,30 @@
+{
+    "tasks": [
+        {
+            "type": "shell",
+            "label": "opencv3.5.4",
+            "command": "E:/opencv/MinGw/mingw64/bin/g++.exe",
+            "args": [
+                "-g",
+                "${file}",
+                "-o",
+                "${workspaceFolder}\\${fileBasenameNoExtension}.exe",
+                "E:/opencv/Opencv/opencv-4.5.4/opencv/build/x64/mingw/bin/libopencv_world454.dll",
+                "-I",
+                "E:/opencv/Opencv/opencv-4.5.4/opencv/build/x64/mingw/install/include",
+                "-I",
+                "E:/opencv/Opencv/opencv-4.5.4/opencv/build/x64/mingw/install/include/opencv2"
+            ],
+            "options": {
+                "cwd": "E:/opencv/MinGw/mingw64/bin"
+            },
+            "problemMatcher": ["$gcc"],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "detail": "调试器生成的任务。"
+        }
+    ],
+    "version": "2.0.0"
+}
